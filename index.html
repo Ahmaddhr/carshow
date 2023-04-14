@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmaddhr</title>
+  <link rel="stylesheet" href="landingpage.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Concert+One&family=Flow+Circular&family=Luckiest+Guy&family=Poppins:wght@300;400;500;600;700&family=Righteous&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="landing.js" defer></script>
+</head>
+
+<body>
+  <nav>
+    <div class="left-nav">
+      <a href=""><img src="img/Logo.png" alt="logo"></a>
+    </div>
+    <div class="center-nav">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Reviews</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="right-nav">
+
+      <button id="login-btn">LOGIN</button>
+    </div>
+    <div class="bars">
+      <i class="fa-solid fa-bars-staggered"></i>
+    </div>
+  </nav>
+  <section id="home">
+    <div class="container">
+      <h1>Life is too short to Drive<br> Boring <span>Cars!</span></h1>
+      <p>Pick up your dream car from our store!!!!</p>
+      <div class="btn">
+        <a href="">
+          <button>Discover More</button>
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+      </div>
+    </div>
+    </div>
+    <div id="slider-wrapper">
+      <div class="slider">
+        <div class="slide first">
+          <img style="filter: brightness(0.4);" src="img/ferrari.jpg" alt="age 1">
+        </div>
+        <div class="slide">
+          <img style="filter: brightness(0.4);" src="img/mercedes.jpg" alt="age 1">
+        </div>
+        <div class="slide">
+          <img style="filter: brightness(0.4);" src="img/lamborghini.jpg" alt="age 1">
+        </div>
+        <div class="slide">
+          <img style="filter: brightness(0.4);" src="img/bmw.jpg" alt="age 1">
+        </div>
+        <div class="slide">
+          <img style="filter: brightness(0.4);" src="img/porsche.jpg" alt="age 1">
+        </div>
+        <div class="slide">
+          <img style="filter: brightness(0.4);" src="img/Audi.jpg" alt="age 1">
+        </div>
+      </div>
+    </div>
+
+
+    <div class="nav-auto">
+      <div class="auto-btn1"></div>
+      <div class="auto-btn2"></div>
+      <div class="auto-btn3"></div>
+      <div class="auto-btn4"></div>
+      <div class="auto-btn5"></div>
+      <div class="auto-btn6"></div>
+    </div>
+    <div class="nav-manual">
+      <label for="prev" id="prev" class="manual-btn prev-btn"><i
+          class="fa-solid fa-chevron-right fa-rotate-180"></i></i></label>
+      <label for="next" id="next" class="manual-btn next-btn"><i class="fa-solid fa-chevron-right"></i></label>
+    </div>
+    </div>
+   
+  </section>
+  <section class="loginnnnn">
+    <div class="login-container" id="login">
+      <div class="header">
+        <h1 class="h1">LOGIN</h1>
+        <p class="p">Enter your information below</p>
+        <div class="x">
+          <i class="fa-solid fa-x" id="close"></i>
+        </div>
+      </div>
+      <div class="body">
+        <div class="info">
+          <i class="fa-solid fa-user"></i>
+          <input class="input" type="text" id="login-name" placeholder="Username" required>
+        </div>
+        <div class="info">
+          <i class="fa-solid fa-lock"></i>
+          <input class="input" type="password" id="login-password" placeholder="Password" required>
+        </div>
+        <div class="remember">
+          <input type="checkbox" id="check">
+          <label>Remember me</label>
+          <a href="">Forget Password?</a>
+        </div>
+        <div class="btn">
+          <a href="">
+            <button>LOGIN</button>
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
+        <div class="para">
+          <p class="p">Don't have an Account?</p><span class="span" id="signup-btn">Sign up</span>
+        </div>
+
+      </div>
+
+    </div>
+    <div class="login-container" id="signup">
+      <div class="header">
+        <h1 class="h1">SIGNUP</h1>
+        <p class="p">Welcome to CarShow</p>
+        <div class="x">
+          <i class="fa-solid fa-x"  id="close2"></i>
+        </div>
+      </div>
+      <div class="body">
+        <div class="info">
+          <i class="fa-solid fa-envelope"></i>
+          <input class="input" type="email" id="email" placeholder="Email" required>
+        </div>
+        <div class="info">
+          <i class="fa-solid fa-user"></i>
+          <input class="input" type="text" id="signup-name" placeholder="Create your username" required>
+        </div>
+        <div class="info">
+          <i class="fa-solid fa-lock"></i>
+          <input class="input" type="password" id="signup-password" placeholder="Create Password" required>
+        </div>
+        <div class="info">
+          <i class="fa-solid fa-lock"></i>
+          <input class="input" type="password" id="signup-conpassword" placeholder="Confirm Password" required>
+        </div>
+
+        <div class="remember">
+          <input type="checkbox" id="check">
+          <label>Agree to our Terms& Conditions</label>
+
+        </div>
+        <div class="btn">
+          <a href="">
+            <button>SIGNUP</button>
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </div>
+        <div class="para">
+          <p class="p">Already have an Account?</p><span class="span" id="login-btn2">LOGIN</span>
+        </div>
+      </div>
+
+  </section>
+  <section id="about">
+    
+      <header>
+      <p>About Us</p>
+      <h1>Best <span>Customer</span> Experience</h1>
+    </header>
+    <div class="items">
+    <div class="left-about">
+      <img src="img/about.jpg" alt="image">
+    </div>
+    <div class="right-about">
+      <div class="top"><span>About</span>
+      </div>
+      <p>Our website that is about car company is a comprehensive resource for anyone interested in cars. It showcases a variety of cars from different brands.
+        <br><br> Visitors can easily browse and compare different vehicles. Whether someone is in the market for a new car or merely looking to stay informed, our website is an excellent destination for all things related to cars. <br>You can check our vehicles here!</p>
+      <div class="btn">
+        <a href="">
+          <button>Find Them Out !</button>
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </a>
+      </div>
+    </div>
+    </div>
+  </section>
+</body>
+
+</html>
